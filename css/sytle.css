@@ -331,23 +331,31 @@ body {
         font-size: 20px;
     }
 
+    .limage {
+        width: 40vw;
+        margin: 10px;
+
+    }
+
 }
 
 
 /* lkjlkj */
-.location{
+.location {
     width: 100%;
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 30px;
 }
+
 .locationhead {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-    
+
 
 }
-.locationimage{
+
+.locationimage {
     position: relative;
     z-index: 9;
     transition: all 300ms ease-in-out;
@@ -355,31 +363,43 @@ body {
 
 .limage {
     margin: 18px;
-    
+
     width: 30vw;
     height: 30vh;
     float: left;
-    
+
 
 
 }
-.locationimage:hover{
+
+.locationimage:hover {
     transform: translateY(-10px);
 }
-.about{
+
+.about {
     width: 100%;
     height: 100vh;
-    
+    background-image: url('../image/foooter.jpg');
+
 
 }
 
-.about>h2{
-    font-size: 30px;
-    margin-bottom: 30px;
+.about_container>h2 {
+    font-size: 35px;
+    padding-block: 40px;
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(217, 231, 248);
 }
-.about>p{
-    margin-top: 100px;
+
+.about_container>p {
+    margin-top: 50px;
     text-align: justify;
+    word-spacing: 4px;
+    line-height: 30px;
+    color: rgb(51, 50, 50);
+    font-weight: 500;
 }
 
 /* kjhkjhj */
@@ -407,6 +427,7 @@ body {
     bottom: 5px;
 
 }
+
 
 .copyright {
     left: 5px;
@@ -462,7 +483,8 @@ body {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.connect{
+
+.connect {
     position: absolute;
     z-index: 1000;
     color: white;
@@ -473,32 +495,66 @@ body {
     text-align: center;
     text-transform: uppercase;
 
-   
+
 }
-.footercontent{
+
+.footercontent {
     margin: 0 80px;
     position: absolute;
     top: 60px;
-    
-   
-    
+
+
+
 
 }
-.footerheader{
+
+.footerheader {
     font-size: 40px;
     padding: 10px;
     font-weight: 800;
 }
-.footerdesc{
-    font-size:18px;
+
+.footerdesc {
+    font-size: 18px;
     padding: 10px;
-    letter-spacing: 1,5px;
-    word-spacing:4px;
+    letter-spacing: 1, 5px;
+    word-spacing: 4px;
 }
+
 .logo_footercoffee {
     width: 95px;
     height: 95px;
-   margin-top: 59px;
-   margin-left: 99px;
+    margin-top: 59px;
+    margin-left: 99px;
+
+}
+@media (max-width: 900px) {
+    .logo_footercoffee {
+        width: 40px;
+        height: 40px;
+        margin-left:20px;
+       
+
+    }
+    .linksone{
+        top: 60px;
+        right: 200px;
+    }
+    .linkstwo {
+        top: 60px;
+        right: 60px;
+    }
+
     
 }
+
+@media (max-width: 900px) {
+    .limage {
+        width: 40vw;
+        
+        margin: 5px 5px 5px 15px;
+        text-align: center;
+    }
+
+}
+
